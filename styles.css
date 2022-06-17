@@ -1,44 +1,29 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sens-serif;
 }
-
-.drk {
+.bg1 {
     background-color: #1f2937;
 }
 
-.signup {
-    background-color: #3882f6;
+.bg2 {
+    background-color: white;
 }
 
-#logo {
-    size: 24px;
-    color: #f9faf8;
+.bg3 {
+    background-color: #e5e7eb;
 }
 
-#hero {
-    size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-}
-
-#subhero {
-    size: 18px;
-    color: #e5e7eb;
-}
-
-.hero_up,
-.hero_down {
+.flexy {
     display: flex;
-    padding: 20px;
-    align-items: baseline;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 48px;
+    padding-right: 48px;
 }
 
-h2 {
-    size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
-    text-align: center;
+.left {
+    align-self: flex-end;
 }
-
+#navbar {
+    width: 80%;
+    justify-content: space-between;
+}
