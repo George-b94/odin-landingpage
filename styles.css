@@ -1,29 +1,84 @@
 * {
     font-family: Roboto, sens-serif;
+    color: white;
 }
-.bg1 {
+
+#act {
+    display: flex;
+    width: 70%;
+    background-color: blue;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+#hero {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    padding: 48px;
+}
+
+#links {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+#s2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+#s2-imgs {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+#s3 {
+    background-color: #e5e7eb;
+    text-align: center;
+}
+
+#top {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding: 12px 48px;
+}
+
+footer {
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+header,
+footer {
     background-color: #1f2937;
 }
 
-.bg2 {
-    background-color: white;
-}
-
-.bg3 {
-    background-color: #e5e7eb;
-}
-
-.flexy {
+header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding-left: 48px;
-    padding-right: 48px;
+    align-items: center;
 }
 
-.left {
-    align-self: flex-end;
+header img {
+    width: auto;
+    height: 200px;
 }
-#navbar {
-    width: 80%;
-    justify-content: space-between;
+
+#s2 img {
+    width: 200px;
+    height: auto;
+    border: 2px solid blue;
+    border-radius: 20px;
 }
